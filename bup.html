@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Virtuoso - Bengaluru</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <nav>
+        <div class="logo">Yuktha Dayanand</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="piano-keys"></div>
+        <h1 class="animated-title">Piano Artist</h1>
+        <p class="tagline">Classical Pianist in Bengaluru</p>
+    </section>
+
+   
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="youname.jpg" alt="Profile Image">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am a passionate pianist dedicated to bringing the beauty and depth of classical music to life through heartfelt performances and meticulous artistry. From the delicate whispers of a soft melody to the thunderous crescendos of a powerful composition, I strive to create an emotional journey for my audience, allowing them to experience music in its purest form.</p>
+                <p>Whether performing on stage, composing original pieces, or collaborating with fellow musicians, I find endless joy in expressing emotions that words often fail to capture. My goal is not just to play music, but to make it come alive, to inspire, and to leave a lasting impression on those who listen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="slideshow-container">
+            <div class="gallery-item active">
+                <a href="pianoplaying.jpg" target="_blank">
+                    <img src="pianoplaying.jpg" alt="Playing Piano">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="piano.jpg" target="_blank">
+                    <img src="piano.jpg" alt="Piano Close-up">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="certificate.jpg" target="_blank">
+                    <img src="certificate.jpg" alt="Music Certificate">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="piano_video.mp4" target="_blank">
+                    <video autoplay loop muted>
+                        <source src="piano_video.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </div>
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="location">
+            <p><i class="fas fa-map-marker-alt"></i> Bengaluru, India</p>
+        </div>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="number" name="Phone name" placeholder="Phone number" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/yuktha.daya" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Yuktha Dayanand. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
