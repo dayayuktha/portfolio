@@ -272,3 +272,112 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+
+/* General styles for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 18px; /* Adjust font size for better readability */
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+    }
+
+    .hero {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .about {
+        padding: 50px 20px;
+        flex-direction: column;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery {
+        padding: 50px 20px;
+    }
+
+    .slideshow-container {
+        max-width: 100%;
+    }
+
+    .gallery-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact {
+        padding: 50px 20px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 16px;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+/* Specific styles for very small screens */
+@media (max-width: 480px) {
+    .nav-links a {
+        font-size: 18px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .contact h2 {
+        font-size: 28px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-form button {
+        font-size: 14px;
+    }
+}
