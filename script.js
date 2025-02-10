@@ -22,7 +22,7 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
 
     // Auto-play every 3 seconds
-    setTimeout(showSlides, 3000);
+    setTimeout(showSlides, 12000);
 }
 
 // Start the slideshow
